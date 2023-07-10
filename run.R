@@ -17,6 +17,4 @@ library(shiny)
 setwd(choose.dir()) # choose the folder of this script
 runApp()
 
-#--------------------------------- if you run local ----------------------------
-# runApp(launch.browser = F, port = 443)
 
