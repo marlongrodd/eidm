@@ -7,6 +7,7 @@
 # install.packages("ggplot2")
 # install.packages("gridExtra")
 # install.packages("expm")
+# install.packages("shiny")
 #
 #-------------------------------------------------------------------------------
 

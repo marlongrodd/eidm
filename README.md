@@ -6,7 +6,7 @@ This is the code for the extended illness-death-model shiny app
 
  1. Download all the files.
  2. Open **run.R** in you R environment.
- 3. Install the required packages (line 6-9)
+ 3. Install the required packages (line 6-10)
  4. Run the whole script and choose the directory of where the app has been placed.
 
 ## Files
