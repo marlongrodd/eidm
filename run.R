@@ -2,6 +2,12 @@
 #
 # Script for running the App via shiny-server
 #
+# Neseccary Packages
+# install.packages("dplyr")
+# install.packages("ggplot2")
+# install.packages("gridExtra")
+# install.packages("expm")
+#
 #-------------------------------------------------------------------------------
 
 library(shiny)
