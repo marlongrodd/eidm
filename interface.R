@@ -22,45 +22,11 @@
 # Define UI for application
 ui <-  fluidPage(
   
+  div(HTML('<i>Copyright (C) 2023 Marlon Grodd, Martin Wolkewitz, Susanne Weber</i>')),
   
   div(HTML('<img src="combacte_logo.png" width = 240 alt="COMBACTE logo" style="margin-top: 25px">
             <img src="ukl_logo.png" width = 240 alt="ukl logo" style="float:right;margin-top: 35px">
             <img src="fdm_logo.png" width = 240 alt="fdm logo" style="float:right">')),
-      
-  # div(img(src   = "combacte_logo.jpg",
-  #         width = 240,
-  #         alt   = "COMBACTE Logo")),
-  
-  # fluidRow(
-  #   column(1, 
-  #          tags$img(src   = "combacte_logo.jpg",
-  #                                 width = 240,
-  #                                 alt   = "COMBACTE Logo"),
-  #          tags$img(src   = "fdm_logo.png",
-  #                                 width = 240,
-  #                                 alt   = "COMBACTE Logo"),
-  #          tags$img(src   = "ukl_logo.png",
-  #                                 width = 240,
-  #                                 alt   = "COMBACTE Logo"))
-  # ),
-  
-  # Banner
-  # tags$figure(
-  #   align = "left",
-  #   tags$img(src   = "combacte_logo.jpg",
-  #            width = 240,
-  #            alt   = "COMBACTE Logo"),
-  #   
-  #   align = "right",
-  #   tags$img(src   = "fdm_logo.png",
-  #            width = 240,
-  #            alt   = "COMBACTE Logo")),
-  # 
-  # tags$figure(
-  #   align = "right",
-  #   tags$img(src   = "ukl_logo.png",
-  #            width = 240,
-  #            alt   = "COMBACTE Logo")),
   
   # Application title
   titlePanel("Extended illness-death model with constant transition hazards"),
@@ -168,6 +134,7 @@ ui <-  fluidPage(
                                                                    (enter a vector (comma delimited))", "2,3,0,5,4,1"),
                                                         checkboxInput("PAF_hr", "Show PAF plot?", FALSE),
                                                         checkboxInput("AM_hr", "Show AM plot?", FALSE),
+                                                        
                                         ))),
                                  column(9,
                                         tags$figure(

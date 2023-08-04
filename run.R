@@ -30,7 +30,7 @@ library(shiny)
 
 #--------------------------------- if you run local ----------------------------
 
-setwd(choose.dir()) # choose the folder of this script
+# setwd(choose.dir()) # choose the folder of this script
 runApp()
 
 
