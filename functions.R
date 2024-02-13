@@ -283,6 +283,9 @@ stacked_plot_eidm <-  function(s               = 0,
     scale_color_manual(labels = legend_labels[order + 1],
                        values = area_col[order + 1]) +
     
+    ylab("Probability") +
+    xlab("follow-up time") +
+    
     guides(colour = guide_legend(override.aes = list(fill = area_col[order + 1]))) +
     labs(col="Events")
   

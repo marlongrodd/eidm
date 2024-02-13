@@ -208,6 +208,7 @@ server <- function(input, output) {
     order_vector <- as.numeric(unlist(strsplit(input$order, ",")))
     
     hui_a <- eidm_aggregated_hazards_short(legend_position_eidm = "bottom",
+                                           plot_title_eidm      = "Stacked Probability Plot Group A",
                                            order_eidm           = order_vector,
                                            Lambda_01            = input$A01_a,
                                            Lambda_02            = input$A02_a,
@@ -216,6 +217,7 @@ server <- function(input, output) {
                                            Lambda_15            = input$A15_a)
     
     hui_b <- eidm_aggregated_hazards_short(legend_position_eidm = c(0.8, 0.85),
+                                           plot_title_eidm      = "Stacked Probability Plot Group B",
                                            order_eidm           = order_vector,
                                            Lambda_01            = input$A01_b,
                                            Lambda_02            = input$A02_b,
